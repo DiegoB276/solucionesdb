@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -39,7 +40,7 @@
   
   .nav-brand {
     width: 180px;
-    height: 60px;
+    height: 50px;
     margin-right: 15px;
   }
   
@@ -50,6 +51,7 @@
   
   .nav-main ul li {
     padding: 10px;
+    padding-right: 20px;
   }
   
   .nav-main ul li a {
@@ -60,7 +62,7 @@
   .nav-main ul li a:hover {
     border-bottom: 2px solid rgb(173, 173, 173);
     color: rgb(173, 173, 173);
-    transition: 0.6s;
+    transition: 0.4s;
   }
   
   .nav-main ul.nav-menu {
@@ -150,7 +152,7 @@
   /* CARDS BANNER ONE */
   .cards-banner-one {
     width: 100%;
-    height: 300px;
+    height: 320px;
     background: url("../img/image-five.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -234,7 +236,7 @@
   }
   
   /* Mobil */
-  @media (max-width: 700px) {
+  @media (max-width: 768px) {
     .menu-btn {
       display: block;
     }
@@ -255,17 +257,23 @@
       opacity: 0.97;
       padding: 30px;
       transform: translateX(-500px);
-      transition: transform 0.5s ease-in-out;
+      transition: transform 0.4s ease-in-out;
       margin-top: 5px;
     }
+
+    .nav-mai ul.nav-menu li:hover{
+      color: #727272;
+      transition: 1s;
+    }
+
   
     .nav-main ul.nav-menu li {
       padding: 20px;
-      border-bottom: rgb(0, 0, 0) solid 1px;
+      border-bottom: rgb(255, 255, 255) solid 1px;
       font-size: 14px;
     }
     .nav-main ul.nav-menu li:last-child {
-      border-bottom: 0;
+      border-bottom: 0px;
     }
   
     .nav-main ul.nav-menu.show {
@@ -281,12 +289,19 @@
       height: 325px;
     }
 
-    .showcase h2, p{
+    .showcase h2{
       margin: 5px;
+      font-size: 22px;
+    }
+
+    .showcase p{
+      margin: 5px;
+      font-size: 17px;
     }
   
     .news-cards {
       grid-template-columns: repeat(2, 1fr);
+      
     }
   
     .cards-banner-one .content,
@@ -295,6 +310,19 @@
 
     }
 
+    .cards-banner-one h2{
+      margin: 5px;
+      font-size: 22px;
+
+    }
+
+    
+    
+
+    .cards-banner-one p{
+      margin: 5px;
+      font-size: 17px;
+    }
     
   
     .footer-links .footer-container {
@@ -306,10 +334,47 @@
     .news-cards {
       grid-template-columns: 1fr;
     }
+
+    .news-cards img{
+      height: 250px;
+    }
   
-    .cards-banner-one .content,
-    .cards-banner-two .content {
+    .cards-banner-one .content {
       width: 100%;
       padding: 60px 20px;
+    }
+  }
+
+  @media (max-width: 251px) {
+    .news-cards{
+      grid-template-columns: 1fr;
+    }
+
+    .news-cards img{
+      height: 190px;
+    }
+
+    .cards-banner-one h2{
+      font-size: 22px;
+    }
+
+    .cards-banner-one p{
+      font-size: 15px;
+    }
+
+    .cards-banner-one img{
+      height: auto;
+    }
+
+    .cards-banner-one .content{
+      text-align: justify;
+    }
+
+    .showcase h2{
+      font-size: 22px;
+    }
+
+    .shwcase p{
+      font-size: 15px;
     }
   }
