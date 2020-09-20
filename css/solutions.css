@@ -523,13 +523,13 @@
     .showcase h2{
       margin: 5px;
       font-size: 22px;
-      color: rgb(211, 211, 211);
+      color: #fff;
     }
 
     .showcase p{
       margin: 5px;
       font-size: 17px;
-      color: rgb(211, 211, 211);
+      color: #fff;
     }
   
     .news-cards {
