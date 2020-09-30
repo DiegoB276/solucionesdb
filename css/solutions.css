@@ -103,6 +103,7 @@
     padding-bottom: 50px;
     margin-bottom: 20px;
     color: #fff;
+    border-radius: 5px 5px;
   }
 
   
@@ -153,6 +154,7 @@
   .news-cards img {
     width: 100%;
     height: 300px;
+    border-radius: 10px 10px;
   }
   
   .news-cards h3 {
@@ -189,6 +191,7 @@
     background-position: center;
     background-size: cover;
     margin-bottom: 40px;
+    border-radius: 20px;
   }
   
   .cards-banner-one .content {
@@ -658,7 +661,7 @@
     }
 
     .write p{
-      font-size: 12px;
+      font-size: 11px;
     }
 
     .news-cards {
