@@ -193,7 +193,7 @@ hr {
 .questions{
   background-color: #000000;
   width: 100%;
-  height: 510px;
+  height: 410px;
   text-align: center;
   border: 3px solid #000;
   display: flex;
@@ -206,7 +206,7 @@ hr {
 }
 
 .questions h2{
-  margin-top: 60px;
+  margin-top: 30px;
   font-size: 50px;
   color: #fff;
 }
@@ -648,8 +648,12 @@ hr {
     width: 80%;
   }
 
+  .questions{
+    height: 310px;
+  }
+
   .questions h2{
-    margin-top: 60px;
+    margin-top: 30px;
     font-size: 30px;
     color: #fff;
   }
@@ -914,4 +918,4 @@ hr {
   .shwcase p{
     font-size: 15px;
   }
-}
+} 
