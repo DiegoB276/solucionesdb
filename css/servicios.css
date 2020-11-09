@@ -264,6 +264,38 @@ hr {
 
 }
 
+.answer{
+  background-color: #7e7e7e;
+  width: 100%;
+  height: auto;
+  text-align: justify;
+  border-radius: 10px;
+  margin-block-end: 20px;
+}
+
+.answer h2 {
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-top: 30px;
+  color: #000;
+  font-size: 35px;
+  margin-block-end: 15px;
+}
+
+.answer p {
+  color: #000;
+  font-size: 21px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.answer li{
+  color: #000;
+  font-size: 21px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 /* Follow */
 .social {
   margin: 50px;
@@ -658,6 +690,10 @@ hr {
     font-size: 30px;
     color: #fff;
   }
+
+  .answer h2{
+    font-size: 23px;
+  }
 }
 
 @media (max-width: 439px) {
@@ -769,6 +805,14 @@ hr {
     font-size: 10px;
     height: 19px;
     width: 80%;
+  }
+
+  .answer p{
+    font-size: 18px;
+  }
+
+  .answer li{
+    font-size: 18px;
   }
 }
 
@@ -908,6 +952,10 @@ hr {
 
   }
 
+  .news-cards p{
+    font-size: 17px;
+  }
+
   .cards-banner-one .content{
     text-align: justify;
   }
@@ -918,5 +966,20 @@ hr {
 
   .shwcase p{
     font-size: 15px;
+  }
+
+  .answer h2{
+    font-size: 19px;
+  }
+  .answer p{
+    font-size: 15px;
+  }
+
+  .answer li{
+    font-size: 15px;
+  }
+
+  .questions{
+    height: 350px;
   }
 } 
