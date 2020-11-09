@@ -307,6 +307,8 @@ hr {
 .info-contact{
   border: 0px solid #fff;
   margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 /* Mobil */
@@ -923,6 +925,6 @@ hr {
   }
 
   .shwcase p{
-    font-size: 15px;
+    font-size: 15px; 
   }
-} 
+}
